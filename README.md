@@ -1,4 +1,5 @@
-# A simple Dropdown menu a la Twitter Bootstrap for responsive design
+dropmenu
+========
 
 A simple Dropdown menu a la Twitter Bootstrap for responsive design
 
