@@ -19,9 +19,25 @@
 <body>
   <div id="qunit"></div>
   <div id="qunit-fixture">
-    <span>lame test markup</span>
-    <span>normal test markup</span>
-    <span>awesome test markup</span>
+    <div class="nav-collapse collapsed">
+      <ul class="navigation" role="navigation">
+        <li>
+          <a href="#intro" title="Go to our Case Studies page">ABOUT</a>
+        </li>
+        <li>
+          <a href="#skills" title="Go to our blog">SKILLS</a>
+        </li>
+        <li>  
+          <a href="#ethos" title="Go to our main contact form">ETHOS</a>                      
+        </li>
+        <li>   
+          <a href="#" title="Go to our main contact form">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+    <button type="button" class="btn btn-navbar" data-toggle="collapsed" data-target=".nav-collapse">
+      Menu
+    </button>
   </div>
 </body>
 </html>
